@@ -15,8 +15,7 @@ yellow="\033[33m"
 white="\033[0m"
 
 #ITdesk
-itdesk_default_packages="DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget  ca-certificates default-settings luci luci-app-adbyby-plus luci-app-autoreboot luci-app-arpbind luci-app-filetransfer luci-app-vsftpd  luci-app-ssr-plus  luci-app-vlmcsd luci-app-wifischedule luci-app-wol luci-app-ramfree luci-app-sfe luci-app-flowoffload luci-app-frpc luci-app-nlbwmon luci-app-accesscontrol  luci-app-ttyd luci-app-unblockmusic luci-app-watchcat "
-		
+itdesk_default_packages="DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget  ca-certificates default-settings luci luci-app-adbyby-plus luci-app-autoreboot luci-app-arpbind luci-app-filetransfer luci-app-ssr-plus  luci-app-vlmcsd luci-app-ramfree luci-app-sfe luci-app-flowoffload luci-app-accesscontrol "		
 
 rely_on() {
 	sudo apt-get -y install asciidoc autoconf automake autopoint binutils bison build-essential bzip2 ccache flex \
